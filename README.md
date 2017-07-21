@@ -14,7 +14,7 @@ fast, and efficient.
   
 
 ### Instructions:
-  1. Install Python 2.7+ (the quote_plus module should come with it)
+  1. Install Python 2.7+ (I believe the quote_plus module comes with it)
   2. [Install PRAW](http://praw.readthedocs.io/en/latest/getting_started/installation.html)
   4. [Configure the account information](http://praw.readthedocs.io/en/latest/getting_started/authentication.html)
   3. Run redditbot.py
