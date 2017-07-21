@@ -3,8 +3,8 @@
 
 A spontanious Reddit bot that aims to help out
 the mods of /r/Overwatch by raising awareness of
-the official Blizzard support forum.  It's simple,
-efficient, and expandable.
+the official Blizzard support forums.  It's simple,
+fast, and efficient.
 
 
 ### Dependencies:
