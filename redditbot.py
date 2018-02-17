@@ -1,4 +1,4 @@
-from urllib import quote_plus
+import urllib.parse
 
 import praw, time
 
@@ -19,7 +19,7 @@ def process_submission(submission):
     normalized_title = submission.title.lower()
     for keyword in KEYWORDS:
         if keyword in normalized_title:
-            url_title = quote_plus(submission.title)
+            url_title = urllib.parse.quote(submission.title)
             reply_text = REPLY_TEMPLATE.format(url_title)
             print('Replying to: {}'.format(submission.title))
             submission.reply(reply_text)

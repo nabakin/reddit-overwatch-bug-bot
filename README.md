@@ -8,13 +8,13 @@ fast, and efficient.
 
 
 ### Dependencies:
-  - Python 2.7+
-  - quote_plus module
+  - Python 2.7+: Current commit - Python 3 | Commit dcde959e0e0309e4ba38891dae84f551d998157a - Python 2
+  - quote_plus module (renamed to urllib.parse in Python 3)
   - [PRAW: The Python Reddit API Wrapper](http://praw.readthedocs.io)
   
 
 ### Instructions:
-  1. Install Python 2.7+ (I believe the quote_plus module comes with it)
+  1. Install Python 2.7+
   2. [Install PRAW](http://praw.readthedocs.io/en/latest/getting_started/installation.html)
   4. [Configure the account information](http://praw.readthedocs.io/en/latest/getting_started/authentication.html)
   3. Run redditbot.py
