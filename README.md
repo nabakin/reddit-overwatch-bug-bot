@@ -8,7 +8,7 @@ fast, and efficient.
 
 
 ### Dependencies:
-  - Python 2.7+: Current commit - Python 3 | Commit dcde959e0e0309e4ba38891dae84f551d998157a - Python 2
+  - Python 2.7+: Current commit - Python 3 | [This previous commit](https://github.com/nabakin/reddit-overwatch-bug-bot/commit/dcde959e0e0309e4ba38891dae84f551d998157a) - Python 2
   - quote_plus module (renamed to urllib.parse in Python 3)
   - [PRAW: The Python Reddit API Wrapper](http://praw.readthedocs.io)
   
